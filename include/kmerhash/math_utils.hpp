@@ -75,7 +75,7 @@ inline uint64_t next_power_of_2(uint64_t x) {
 
 //  static_assert(::std::is_integral<T>::value && !::std::is_signed<T>::value,
 //                "ERROR: can only find power of 2 for unsigned integers.");
-  return  0x1ULL << (64 - __builtin_lzcll(x-1));
+  return  0x1ULL << (64 - __builtin_clzll(x-1));
 }
 
 #else
