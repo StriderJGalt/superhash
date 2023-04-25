@@ -2,8 +2,8 @@
 # 	path = ext/kmerind
 # 	url = https://github.com/ParBLiSS/kmerind.git
 # 	branch = master
-[submodule "ext/supermerind"]
-	path = ext/supermerind
+[submodule "ext/kmerind"]
+	path = ext/kmerind
 	url = https://github.com/StriderJGalt/supermerind.git
 	branch = master
 [submodule "ext/martinus"]
